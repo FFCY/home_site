@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* webrx CSS Document */
+a{ font-size:12px;text-decoration:none;}
+a:hover{ text-decoration:none;}
+ul{ list-style:none;}
+body{font-family:"Microsoft YaHei","黑体","宋体"; background:#ffffff; background:url(../images/bg1.jpg) no-repeat; height:100%; width:100%;}
+body,h1,span,div,p,ul,li,image,a,dt,em,dl,form,input,dd,select,h2,h3,h4,h6,img,figure,article{ margin:0; padding:0;}
+.container{ width:85%; margin:0 auto; height:100%;}
+/* --------------------header start------------------- */
+header .container{ position:relative;}
+header{  width:100%; height:500px;}
+header ul{ position:fixed;}
+header ul li span{ display:block; font-size:12px; font-weight:normal; color:#6B6513;}
+header ul .logo-img{ width:200px; margin:10px;}
+header ul li{ float:left; width:130px; height:70px; text-align:center;margin-top:25px; }
+header ul li a{font-size:20px; color:#998c73; font-weight:bold;}
+header ul li a:hover{ color:#818999;}
+header h2{ position:absolute; left:0; top:150px;}
+/* --------------------header end------------------- */
+/*-----------------------article start--------------------------*/
+article{ width:100%; height:50%;}
+article .game-down{position:relative; float:left;}
+article .game-down img{ display:block;}
+.game-down .down-a1{height:160px; width:100%; display:block; top:0; left:0; position:absolute;}
+.game-down .down-a2{display:block;height:90px; width:50%;position:absolute; bottom:0; left:0;}
+.game-down .down-a3{ display:block;height:90px;width:50%;position:absolute; bottom:0;right:0;}
+
+#full-width-slider {
+	width:640px;
+	height:250px;
+}
+#full-width-slider * {
+	-webkit-backface-visibility: inherit;
+}
+
+.sliderContainer{ float:left;}
+#sliderContainer{ float:left;}
+
+/*-----------------------article end-------------------------*/
+/*-----------------------section start-------------------------*/
+section{ width:320px; height:250px; float:left;}
+section .top{ background:#F0EFEF; height:50%;}
+section .bottom{ background:#fff; height:50%; }
+section .top ul, section .bottom ul{ width:245px; margin:0 auto; padding-top:15px;}
+section .top li,section .bottom li{ float:left;height:30px;text-align:center; width:80px;}
+.top p,.bottom p{ height:35px; line-height:35px; border-bottom:2px solid #ccc; width:280px; margin:0 auto;}
+.top p a,.bottom p a{ display:block; float:left; width:75px; border-bottom:2px solid #284675;}
+.top p img,.bottom p img{ display:block; cursor:pointer; float:right; margin-top:10px;}
+.top a,.bottom a { color:#333;}
+section a:hover{ color:#726031; text-decoration:underline;}
+/*-----------------------section end-------------------------*/
+
+#hero-img{ width:320px; height:680px; overflow:hidden; float:left; }/*-------------不会的动画------------------------*/

@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>webrx-title</title>
+<meta name="description" content="简介">
+<meta name="keywords" content="关键字">
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link href="css/rs-minimal-white.css" rel="stylesheet"/>
+<link href="css/royalslider.css" rel="stylesheet">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.royalslider.min.js"></script>
+<script>
+      jQuery(document).ready(function($) {
+  $('#full-width-slider').royalSlider({
+    arrowsNav: true,
+    loop: true,
+    keyboardNavEnabled: true,
+    controlsInside: false,
+    imageScaleMode: 'fill',
+    arrowsNavAutoHide: false,
+    autoScaleSlider: true, 
+    autoScaleSliderWidth: 640,     
+    autoScaleSliderHeight: 250,
+    controlNavigation: 'bullets',
+    thumbsFitInViewport: false,
+    navigateByClick: true,
+    startSlideId: 0,
+    autoPlay: true,
+    transitionType:'move',
+    globalCaption: true,
+    deeplinking: {
+      enabled: true,
+      change: false
+    },
+	autoPlay: {
+				// autoplay options go gere
+				enabled: true,
+				stopAtAction: false,
+				pauseOnHover: false,
+				delay: 3000
+			},
+    /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+    imgWidth: 640,
+    imgHeight:250
+  });
+  
+  
+  $('#hero-img').royalSlider({
+    arrowsNav: true,
+    loop: true,
+    keyboardNavEnabled: true,
+    controlsInside: false,
+    imageScaleMode: 'fill',
+    arrowsNavAutoHide: false,
+    autoScaleSlider: true, 
+    autoScaleSliderWidth:320,     
+    autoScaleSliderHeight:500,
+    controlNavigation: 'bullets',
+    thumbsFitInViewport: false,
+    navigateByClick: true,
+    startSlideId: 0,
+    autoPlay: true,
+    transitionType:'move',
+    globalCaption: true,
+    deeplinking: {
+      enabled: true,
+      change: false
+    },
+	autoPlay: {
+				// autoplay options go gere
+				enabled: true,
+				stopAtAction: false,
+				pauseOnHover: false,
+				delay: 3000
+			},
+    /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+    imgWidth:320,
+    imgHeight:500
+  });
+});
+</script>
+<script>
+$(function(){
+	$("#hero-img .rsBullets .rsNavItem:eq(0)").addClass("rsNavItem-one");
+	$("#hero-img .rsBullets .rsNavItem:eq(1)").addClass("rsNavItem-two");
+	$("#hero-img .rsBullets .rsNavItem:eq(2)").addClass("rsNavItem-three");
+	$("#hero-img .rsBullets .rsNavItem:eq(3)").addClass("rsNavItem-four");
+	})
+</script>
+<script>
+document.createElement("header");
+document.createElement("article");
+document.createElement("figure");
+document.createElement("section");
+</script>
+</head>
+
+<body>
+<!-------------------head start-------------------------->
+<header>
+<div class="container">
+<ul>
+<li><a href="">首页<span>HOME</span></a></li>
+<li><a href="">新闻公告<span>NEWS</span></a></li>
+<li><a href="">游戏资料<span>DOCUMENT</span></a></li>
+<li class="logo-img"><a href=""><img src="images/logo.png"/></a></li>
+<li><a href="">游戏下载<span>DOWN</span></a></li>
+<li><a href="">客户服务<span>SERVICE</span></a></li>
+<li><a href="">玩家互动<span>FORM</span></a></li>
+</ul>
+<h2><img src="images/slogan.png"/></h2>
+</div>
+</header>
+<!-------------------head end-------------------------->
+<!-------------------container-wrap start-------------------------->
+<article>
+<div class="container">
+<div class="game-down">
+<img src="images/down.jpg"/>
+<a href="" class="down-a1"></a>
+<a href="" class="down-a2"></a>
+<a href="" class="down-a3"></a>
+</div>
+</div>
+</article>
+<div class="sliderContainer">
+      <div id="full-width-slider" class="royalSlider heroSlider rsMinW">
+    <div class="rsContent"> <img class="rsImg" height="250" width="640" src="images/banner.jpg" alt="" /> 
+        </div>
+    <div class="rsContent"> <img class="rsImg" height="250" width="640" src="images/banner.jpg"  alt="" /> 
+        </div>
+    <div class="rsContent"> <img class="rsImg" height="250" width="640" src="images/banner.jpg"  alt="" /> 
+        </div>
+    <div class="rsContent"> <img class="rsImg" height="250" width="640" src="images/banner.jpg"  alt="" />  
+        </div>
+  </div>
+    </div>
+    
+<!-------------------container-wrap end-------------------------->
+    
+<!-------------------new friend start------------------------->
+<section>
+<div class="top">
+<p><a href="">新手指南</a><img src="images/more.gif"/></p>
+<ul>
+<li><a href="">注册</a></li>
+<li><a href="">安装及更新</a></li>
+<li><a href="">登录游戏</a></li>
+<li><a href="">角色创建</a></li>
+<li><a href="">基本操作</a></li>
+<li><a href="">游戏配置</a></li>
+</ul>
+</div>
+<div class="bottom">
+<p><a href="">新手指南</a><img src="images/more.gif"/></p>
+<ul>
+<li><a href="">注册</a></li>
+<li><a href="">安装及更新</a></li>
+<li><a href="">登录游戏</a></li>
+<li><a href="">角色创建</a></li>
+<li><a href="">基本操作</a></li>
+<li><a href="">游戏配置</a></li>
+</ul>
+</div>
+</section>
+<!-------------------new friend end------------------------->
+<!-------------------不会动的动画------------------------->
+<div class="sliderContainer-2">
+<div id="hero-img" class="royalSlider heroSlider rsMinW">
+<div class="rsContent"> <img class="rsImg" src="images/role1.jpg" alt="" /> </div>
+<div class="rsContent"> <img class="rsImg" src="images/role2.jpg" alt="" /> </div>
+<div class="rsContent"> <img class="rsImg" src="images/role3.jpg" alt="" /> </div>
+<div class="rsContent"> <img class="rsImg" src="images/role4.jpg" alt="" /> </div>
+<div class="rsContent"> <img class="rsImg" src="images/role5.jpg" alt="" /> </div>
+</div>
+</div>
+<!-------------------不会动的动画------------------------->
+<div class="section-two">
+<ul>
+<li>综合</li>
+<li>新闻</li>
+<li>公告</li>
+<li>活动</li>
+<li>论坛</li>
+</ul>
+<div class="tab-container">
+<h3>“100%得绝版称谓”上17173为《新隋唐风云》点赞</h3>
+<ul>
+<li>“100%得绝版称谓”上17173为《新隋唐风云》点赞</li>
+</ul>
+<img src="images/news_pic1.jpg"/>
+</div>
+</div>
+</body>
+</html>
